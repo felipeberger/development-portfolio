@@ -1,2 +1,2 @@
-# development-portfoloio
+# development-portfolio
 Online repository of work
