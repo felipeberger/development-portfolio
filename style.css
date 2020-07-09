@@ -1,27 +1,30 @@
+
+/* body */
+body {
+  padding-top: 60px;
+}
+
 /* container */
 .container-fluid {
   max-width: 1200px;
-  /* height: 75vh; */
 }
-
-/* general styling */
 
 /* navigation */
 #navbar {
-  background-color: #13e8d3;
+  background-color: #1abc9c;
 }
 
 .navbar .navbar-brand,
 #navbarSupportedContent .navbar-nav a {
-  color: black;
+  color: white;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
 }
 
 .navbar .navbar-brand:hover,
 #navbarSupportedContent .navbar-nav a:hover {
-  color: white;
+  color: black;
   font-weight: 600;
 }
 
@@ -43,8 +46,8 @@
 
 .expertise p,
 .expertise i {
-  color: #13e8d3;
-  font-size: 1.5rem;
+  /* color: #1abc9c; */
+  font-size: 1.3rem;
   font-weight: bolder;
 }
 
@@ -54,5 +57,15 @@
 
 /* portfolio section */
 .portfolio {
-  background-color: #13e8d3;
+  background-color: #1abc9c;
+}
+
+.portfolio-header {
+  color: white;
+}
+
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%);
+  background-size: cover;
+  background-position: bottom;
 }
