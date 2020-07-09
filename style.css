@@ -12,6 +12,7 @@ body {
 /* navigation */
 #navbar {
   background-color: #1abc9c;
+  border-bottom: 1px solid #1a6e5d;
 }
 
 .navbar .navbar-brand,
