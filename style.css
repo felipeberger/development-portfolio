@@ -1,0 +1,24 @@
+/* container */
+.container-fluid {
+  max-width: 1080px;
+}
+
+
+/* navigation */
+#navbar {
+  background-color: #13e8d3;
+}
+
+.navbar .navbar-brand,
+#navbarSupportedContent .navbar-nav a {
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-brand:hover,
+#navbarSupportedContent .navbar-nav a:hover {
+  color: white;
+  font-weight: 600;
+}
