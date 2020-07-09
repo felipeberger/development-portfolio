@@ -1,8 +1,10 @@
 /* container */
 .container-fluid {
-  max-width: 1080px;
+  max-width: 1200px;
+  /* height: 75vh; */
 }
 
+/* general styling */
 
 /* navigation */
 #navbar {
@@ -21,4 +23,36 @@
 #navbarSupportedContent .navbar-nav a:hover {
   color: white;
   font-weight: 600;
+}
+
+/* landing */
+.img-round {
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-round img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.expertise p,
+.expertise i {
+  color: #13e8d3;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.expertise .separator {
+  font-size: 50px;
+}
+
+/* portfolio section */
+.portfolio {
+  background-color: #13e8d3;
 }
