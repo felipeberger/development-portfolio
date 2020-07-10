@@ -16,10 +16,10 @@
     <title>Portfolio</title>
   </head>
 
-  <body>
+  <body id="page-top" data-spy="scroll" data-target=".fixed-top">
     <!-- navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-2" id="navbar">
-      <a class="navbar-brand d-inline d-lg-none ml-2" href="#navbarSupportedContent">Felipe Berger</a>
+      <a class="navbar-brand d-inline d-lg-none ml-2" href="#page-top">Felipe Berger</a>
 
       <!-- hamburger button for medium and smaller screen sizes -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,9 +29,10 @@
       <!-- navigation links, collapses into hamburger for medium and smaller -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="navbar-nav ml-auto mr-lg-auto">
+          <a href="#page-top" class="nav-item nav-link px-2 d-none d-lg-inline-block">Home</a>
           <a href="#portfolio" class="nav-item nav-link px-2">Portfolio</a>
           <a href="#about" class="nav-item nav-link px-2">About</a>
-          <a href="#skills-certifications" class="nav-item nav-link px-2">Skills &amp; Certifications</a>
+          <!-- <a href="#skills-certifications" class="nav-item nav-link px-2">Skills &amp; Certifications</a> -->
           <a href="#contact" class="nav-item nav-link px-2">Contact</a>
         </div>
       </div>
@@ -116,10 +117,15 @@
     </div>
 
     <!-- contact section -->
-    <footer class="contact py-3 py-md-5" id="contact">
-      <div class="container-fluid py-3 py-md-4">
+    <footer class="contact py-2 py-md-4" id="contact">
+      <div class="container-fluid py-1 py-md-2">
+        <h1 class="text-center pb-1 pb-md-2 contact-header">Contact Me</h1>
         <div class="row">
-
+          <div class="col-12 text-center contact-links">
+              <a href="#" class="px-3"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="px-3"><i class="fab fa-github-square"></i></a>
+              <a href="#" class="px-3"><i class="fas fa-envelope-square"></i></a>
+          </div>
         </div>
       </div>
     </footer>
